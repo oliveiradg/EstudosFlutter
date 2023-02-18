@@ -34,7 +34,7 @@ Officially created in collaboration with the Google Flutter team.</p>
 <a href="#aula07">Aula 07:  Instalação do Windows - Instale o Android Emulador</a><br>
 <a href="#aula08">Aula 08:  Solução de problemas de instalação do Windows</a><br>
 
-<h3>Seção 3: Eu sou rico - como criar aplicativos do Flutter do zero</h3>
+<h3>Seção 3: Eu sou rico - Como criar aplicativos Flutter do zero</h3>
 
 <div id="conteudo" align="justify">
 
