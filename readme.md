@@ -40,8 +40,6 @@ Officially created in collaboration with the Google Flutter team.</p>
 
 
 
-<a href="<h2>Estudo de Desenvolvimento <br> Flutter e Dart</h2>">Voltar ao topo.</a><br>
-<hr>
 
 
 

@@ -1,7 +1,7 @@
 <div align="center">
 <a href="https://github.com/oliveiradg" target="_blank"><img align="right" height="100" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" /></a>
 <br>
-<h2>Estudo de Desenvolvimento <br> Flutter e Dart</h2>
+<h1>Estudo de Desenvolvimento <br> Flutter e Dart</h1>
 <p>The Complete Flutter Development BootCamp with Dart <br>
 Officially created in collaboration with the Google Flutter team.</p>
 
@@ -12,20 +12,22 @@ Officially created in collaboration with the Google Flutter team.</p>
 </div>
 </div>
 
-<h3>Módulo 1: Introdução ao desenvolvimento multiplataforma com Flutter e Dart</h3>
+<h2>Módulo 1: Introdução ao desenvolvimento multiplataforma com Flutter e Dart</h2>
 
 <div id="conteudo" align="justify">
 
-## Conteúdo
+### Conteúdo
      
 <a href="#aula01">Aula 01: O que é Flutter?</a><br>
-<a href="#aula02">Aula 02: Porque Flutter?</a><br>
+<a href="#aula02">Aula 02: Por que Flutter?</a><br>
 <a href="#aula03">Aula 03: A anatomia de um aplicativo Flutter</a><br>
 
+---
+<div align="center">
 <h2>Aula 01: O que é Flutter?</h2>
 </div>
 
-O que é exatamente Flutter? 
+### O que é exatamente Flutter? 
 
 E para poder responder a essa pergunta, primeiro temos que nos colocar na mente de um desenvolvedor de aplicativos.
 
@@ -106,5 +108,4 @@ E ao conectá-los e personalizá-los, você acaba com seu belo aplicativo que po
 
 <hr>
 
-<a href="#conteudo">Voltar ao topo.</a><br>
-<hr>
+
