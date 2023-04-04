@@ -150,8 +150,6 @@ Portanto, como desenvolvedor, se quisermos fazer o layout de nossa tela para apr
 
 <img src="../images/telas.png">
 
-
-
 Portanto, as restrições podem ser realmente fáceis de fazer e executar bem se você tiver apenas quatro ou cinco coisas na tela. Mas não estamos mais em telas de 5 polegadas
 
 Foi-se o tempo da tela de 5 polegadas, quando tínhamos uma tela pequena, havia apenas um limite para que você pudesse ajustar nela.
@@ -177,6 +175,11 @@ E há muitos conceitos básicos de web design que entram no desenvolvimento do F
 
 E então dar preenchimento, margens ou centralização. E ter um monte desses widgets convenientes que facilitam o layout de sua tela. Agora, como se não bastasse ter uma única base de código para trabalhar e uma maneira intuitiva e bonita de definir a interface do usuário do seu aplicativo, há também algo chamado Hot Reload. Quando estamos desenvolvendo aplicativos, uma das maiores dores é quando você tem que executar o aplicativo, porque geralmente no iOS, pode levar entre 10 e 30 segundos entre salvar seu código, executar seu aplicativo, compilá-lo e finalmente vê-lo na tela.
 
+
+<!-- Imagem de telas -->
+
+<img src="../images/ios.png">
+
 Mas quando você está trabalhando no Flutter, assim que você atualizar seu código e clicar em "Salvar", sua interface de usuário mudará na frente de seus olhos às vezes em uma fração de segundo.
 
 E isso leva a uma maneira muito diferente de projetar a interface do usuário.
@@ -194,7 +197,5 @@ Se você está trabalhando no desenvolvimento do iOS, sabe que muito disso é um
 O modo como a Apple implementa um botão ou controle deslizante é, essencialmente, seu molho  secreto. E você não tem acesso a isso. Mas no Flutter você faz.
 
 E o que isso significa é que você verá como algo, em particular, é implementado. E se você quiser personalizá-lo; se você quiser construir inteiramente sua própria versão dele, você pode simplesmente copiar o que eles fizeram para a versão deles e atualizar as partes de que você precisa. Então, digamos que eu não queira mais usar o botão de ação flutuante padrão do Flutter. 
-
-
 
 Portanto, há muitas coisas realmente interessantes que você pode fazer com o Flutter. E nas próximas lições, vamos explorar e mergulhar fundo em todas as coisas legais que você pode fazer com Flutter e Dart.
