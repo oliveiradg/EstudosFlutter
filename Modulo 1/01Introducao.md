@@ -177,110 +177,24 @@ E há muitos conceitos básicos de web design que entram no desenvolvimento do F
 
 E então dar preenchimento, margens ou centralização. E ter um monte desses widgets convenientes que facilitam o layout de sua tela. Agora, como se não bastasse ter uma única base de código para trabalhar e uma maneira intuitiva e bonita de definir a interface do usuário do seu aplicativo, há também algo chamado Hot Reload. Quando estamos desenvolvendo aplicativos, uma das maiores dores é quando você tem que executar o aplicativo, porque geralmente no iOS, pode levar entre 10 e 30 segundos entre salvar seu código, executar seu aplicativo, compilá-lo e finalmente vê-lo na tela.
 
-Mas quando você está trabalhando no Flutter, assim que você atualizar seu código e clicar em "Salvar", sua interface de
-
-usuário mudará na frente de seus olhos às vezes em uma fração de segundo.
+Mas quando você está trabalhando no Flutter, assim que você atualizar seu código e clicar em "Salvar", sua interface de usuário mudará na frente de seus olhos às vezes em uma fração de segundo.
 
 E isso leva a uma maneira muito diferente de projetar a interface do usuário.
 
-É quase como se você tivesse um botão de atualização em um site. Assim que você mudar algo, você clica em salvar
-
-e vê as mudanças em seu aplicativo. E então você itera. E você acaba restringindo
-
+É quase como se você tivesse um botão de atualização em um site. Assim que você mudar algo, você clica em salvare vê as mudanças em seu aplicativo. E então você itera. E você acaba restringindo 
 o design final que deseja porque obtém acesso ao recarregamento super rápido.
 
-E isso torna muito divertido e fácil projetar interfaces bonitas. E você pode ver isso em
 
-ação aqui. Cada vez que clico em salvar, você
-
-pode ver que aqui embaixo, você tem a mensagem "Preparando o recarregamento a quente ... "e instantaneamente a IU é atualizada.
-
-Então mudei a cor. Eu clico em salvar. As atualizações da IU. E isso é registrado em tempo real.
-
-Não há aceleração. Não há edição feita aqui.
-
-É tão rápido. E torna uma experiência realmente divertida projetar uma bela interface de usuário. Agora, a última coisa que quero
-
-falar é o fato de que, ao trabalhar com o Flutter, você
-
-obtém acesso ao código-fonte original. Como o Flutter é um código aberto, significa
-
-que se você quiser ver como um botão é implementado, você pode simplesmente clicar nele e você
-
-verá como eles escreveram o código para torná-lo do jeito que está; como se comportar da maneira que está; e você pode
-
-clicar em qualquer coisa na tela e você pode ver o código original que a equipe escreveu para que seja do
-
-jeito que está.
+Como o Flutter é um código aberto, significa que se você quiser ver como um botão é implementado, você pode simplesmente clicar nele e você verá como eles escreveram o código para torná-lo do jeito que está; como se comportar da maneira que está; e você pode clicar em qualquer coisa na tela e você pode ver o código original que a equipe escreveu para que seja do jeito que está.
 
 E isso significa que você pode entender mais facilmente como esses widgets funcionam.
 
-Se você está trabalhando no desenvolvimento do iOS, sabe que muito disso é uma caixa preta misteriosa. Porque no iOS
+Se você está trabalhando no desenvolvimento do iOS, sabe que muito disso é uma caixa preta misteriosa. Porque no iOS muitos componentes são proprietários.
 
-muitos componentes são proprietários.
+O modo como a Apple implementa um botão ou controle deslizante é, essencialmente, seu molho  secreto. E você não tem acesso a isso. Mas no Flutter você faz.
 
-O modo como a Apple implementa um botão ou controle deslizante é, essencialmente, seu molho secreto. E você não tem acesso
+E o que isso significa é que você verá como algo, em particular, é implementado. E se você quiser personalizá-lo; se você quiser construir inteiramente sua própria versão dele, você pode simplesmente copiar o que eles fizeram para a versão deles e atualizar as partes de que você precisa. Então, digamos que eu não queira mais usar o botão de ação flutuante padrão do Flutter. 
 
-a isso. Mas no Flutter você faz.
 
-E o que isso significa é que você verá como algo, em particular, é implementado. E se você quiser personalizá-lo; se você quiser
 
-construir inteiramente sua própria versão dele, você pode simplesmente copiar o que eles fizeram para a
-
-versão deles e atualizar as partes de que você precisa. Então, digamos que eu não queira mais usar o botão
-
-de ação flutuante padrão do Flutter. Eu quero criar minha própria versão. Bem, se formos adiante e
-
-dermos uma olhada, podemos ver que é construído com essa quantidade de elevação da
-
-tela e uma altura e largura desse tamanho. E então podemos ver que, uma vez colocado junto, é baseado
-
-em algo chamado botão de matéria-prima.
-
-Então, vou entrar aqui e descartar sua versão do botão de ação flutuante. E vou construir
-
-meu próprio botão de matéria-prima. E meu botão será personalizado da maneira que eu
-
-quero.
-
-Então, eu quero que ele tenha uma cor que talvez seja vermelha em vez de azul.
-
-Portanto, as cores serão alteradas para vermelho.
-
-E quando eu clico em "Salvar", você pode ver que executa uma recarga a quente e acabamos com um retângulo vermelho.
-
-Agora, eu realmente não quero que seja um retângulo.
-
-Eu ainda gosto muito das bordas arredondadas.
-
-Então, vamos mudar sua forma.
-
-Vamos mudar para um retângulo redondo.
-
-E vou deixar seus cantos um pouco mais arredondados. Vou mudar o raio da borda para
-
-talvez, digamos, 50 pixels. E agora, quando clico em salvar, você pode ver que é muito mais arredondado. Parece muito mais com o formato de
-
-comprimido que eu procurava.
-
-A seguir, vamos personalizá-lo um pouco mais.
-
-Eu queria ser um pouco maior no momento.
-
-É muito, muito pequeno.
-
-Vamos torná-lo um pouco mais alto e um pouco mais largo. Então, vamos adicionar algumas restrições de caixa.
-
-E vou mudar a altura para, digamos, 50 pixels. E faremos a largura de talvez 100.
-
-Então, agora que clico em "Salvar", achei o botão perfeito. E é exatamente isso que eu quero. E eu consegui personalizá-lo exatamente
-
-do meu agrado com base em olhar exatamente como a equipe do Flutter criou o botão
-
-de ação flutuante.
-
-E eu apenas mudei para torná-lo minha própria versão.
-
-Portanto, há muitas coisas realmente interessantes que você pode fazer com o Flutter. E nas próximas lições, vamos explorar
-
-e mergulhar fundo em todas as coisas legais que você pode fazer com Flutter e Dart.
+Portanto, há muitas coisas realmente interessantes que você pode fazer com o Flutter. E nas próximas lições, vamos explorar e mergulhar fundo em todas as coisas legais que você pode fazer com Flutter e Dart.
