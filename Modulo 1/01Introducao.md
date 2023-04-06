@@ -209,9 +209,6 @@ Portanto, há muitas coisas realmente interessantes que você pode fazer com o F
 
 ### A anatomia de um aplicativo Flutter 
 
-<!-- Imagem de telas -->
-
-<img src="../images/anatomia.png">
 
 Antes de começarmos, eu queria examinar rapidamente do que um aplicativo Flutter é composto; ou a anatomia de um aplicativo Flutter.
 
@@ -236,17 +233,24 @@ Agora posso ir mais fundo na minha árvore de widgets. E na minha Row, vou adici
 
 E se eu quisesse adicionar um pedaço de texto, usaria um widget de texto. Se eu quisesse adicionar um ícone, usaria um widget de ícone. Se eu quiser adicionar uma imagem, usaria um widget de imagem.
 
-Então você entendeu.
+E no final da construção de nosso aplicativo, terminamos com uma árvore de widgets como a que você vê  aqui. 
 
-E no final da construção de nosso aplicativo, terminamos com uma árvore de widgets como a que você vê
 
-aqui. Agora, nossa árvore de widgets é apenas um monte de widgets aninhados uns nos outros.
+<!-- Imagem de telas -->
 
-E se fôssemos olhar para o código de nossa árvore de widgets, seria algo semelhante, embora
+<img src="../images/anatomia.png">
 
-fosse girado, eu acho.
 
-Mas, essencialmente, teríamos todos os nossos widgets aninhados uns nos outros.
+Agora, nossa árvore de widgets é apenas um monte de widgets aninhados uns nos outros.
+
+E se fôssemos olhar para o código de nossa árvore de widgets, seria algo semelhante:
+
+<!-- Imagem de telas -->
+
+<img src="../images/codigo.png">
+
+
+Essencialmente, teríamos todos os nossos widgets aninhados uns nos outros.
 
 Portanto, dentro desses parênteses para o scaffold, temos uma barra de aplicativos e um contêiner: uma barra de aplicativos e um contêiner.
 
@@ -257,59 +261,27 @@ aqui que começa.
 E é aqui que tudo termina.
 
 Então temos uma coluna. Aqui está nossa coluna. Dentro de nossa
-
 coluna, temos duas coisas: uma linha e algum texto. E dentro de nossa linha, temos outras duas coisas:
 
-algum texto e algum ícone. E é assim que você representaria essa árvore ou esse design no código do DART. Portanto, criar uma interface de usuário
+algum texto e algum ícone. E é assim que você representaria essa árvore ou esse design no código do DART. Portanto, criar uma interface de usuário como a que temos aqui é tão simples quanto escrever algumas linhas de código como esta.
 
-como a que temos aqui é tão simples quanto escrever algumas linhas de código como
-
-esta.
-
-Agora, embora muitos desses widgets que vimos até agora sejam basicamente widgets de IU, certo? A sua funcionalidade é principalmente
-
-para fazer o layout ou para mostrar pedaços de texto ou ícones.
+Agora, embora muitos desses widgets que vimos até agora sejam basicamente widgets de IU, certo? A sua funcionalidade é principalmente para fazer o layout ou para mostrar pedaços de texto ou ícones.
 
 Agora também existem outros widgets que possuem algumas funcionalidades.
 
-Por exemplo, se dentro da coluna - em vez de mostrar um pedaço de texto - eu quisesse mostrar uma imagem da
+Por exemplo, se dentro da coluna - em vez de mostrar um pedaço de texto - eu quisesse mostrar uma imagem da Internet.
 
-Internet.
-
-Bem, posso usar um widget chamado imagem de rede e vou dar a ele um U. R. EU. e será capaz de
-
-carregar a imagem desse endereço de URL.
+Bem, posso usar um widget chamado imagem de rede e vou dar a ele uma URL e será capaz de carregar a imagem desse endereço de URL.
 
 Portanto, este é um widget que executa um pouco de funcionalidade.
 
-E assim, gosto de pensar nisso: quando você está construindo aplicativos
+E assim, gosto de pensar nisso: quando você está construindo aplicativos Flutter, é como trabalhar com Lego Technic. 
 
-Flutter, é como trabalhar com Lego Technic. Porque, embora o Lego tradicional seja basicamente sobre a construção de blocos uns
-
-sobre os outros para criar ... bem, tudo que criei foram pirâmides.
+Porque, embora o Lego tradicional seja basicamente sobre a construção de blocos uns sobre os outros para criar ... bem, tudo que criei foram pirâmides.
 
 Foi a coisa mais fácil de fazer, então fiz várias pirâmides.
 
-Não fui criativo o suficiente para fazer muito mais ... mas com Lego Technic você pode construir algo que não
+Não fui criativo o suficiente para fazer muito mais ... mas com Lego Technic você pode construir algo que não só tenha uma boa aparência, mas também tenha funcionalidade.
 
-só tenha uma boa aparência, mas também tenha funcionalidade.
 
-Por exemplo, este caminhão aqui. Temos um pequeno controle remoto e você pode
-
-mover o braço do guindaste para cima e para baixo. E isso porque não contém apenas as peças Lego
-
-ou os widgets para o visual, como as rodas ou o pára-choque dianteiro ou o guindaste, mas também as peças que lhe dão
-
-funcionalidade, como um motor ou uma bateria.
-
-E é conectando todas essas peças, você acaba com algo que não
-
-só parece bonito, mas também é interativo.
-
-E isso é essencialmente o que são nossos aplicativos Flutter e como eles serão construídos por meio do uso
-
-de todos esses diferentes tipos de widgets.
-
-Então, quando estiver pronto, vamos começar e configurar e baixar nossas ferramentas para que possamos começar a
-
-desenvolver nossos próprios aplicativos Flutter! Por tudo isso e muito mais, vejo você na próxima lição.
+Então, quando estiver pronto, vamos começar e configurar e baixar nossas ferramentas para que possamos começar a desenvolver nossos próprios aplicativos Flutter! 
