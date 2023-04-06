@@ -199,3 +199,117 @@ O modo como a Apple implementa um botão ou controle deslizante é, essencialmen
 E o que isso significa é que você verá como algo, em particular, é implementado. E se você quiser personalizá-lo; se você quiser construir inteiramente sua própria versão dele, você pode simplesmente copiar o que eles fizeram para a versão deles e atualizar as partes de que você precisa. Então, digamos que eu não queira mais usar o botão de ação flutuante padrão do Flutter. 
 
 Portanto, há muitas coisas realmente interessantes que você pode fazer com o Flutter. E nas próximas lições, vamos explorar e mergulhar fundo em todas as coisas legais que você pode fazer com Flutter e Dart.
+
+<!--Capítulo 3-->
+
+---
+<div align="center">
+<h2>Aula 03: A anatomia de um aplicativo Flutter</h2>
+</div>
+
+### A anatomia de um aplicativo Flutter 
+
+<!-- Imagem de telas -->
+
+<img src="../images/anatomia.png">
+
+Antes de começarmos, eu queria examinar rapidamente do que um aplicativo Flutter é composto; ou a anatomia de um aplicativo Flutter.
+
+E vamos decompor isso. E vamos decompô-lo.
+
+Portanto, como mencionei antes, tudo dentro de um aplicativo Flutter é um widget. E você constrói widgets sobre widgets, assim como blocos de Lego em blocos de Lego, a fim de criar seu aplicativo.
+
+Então, digamos que decidimos criar um novo aplicativo. A primeira coisa que podemos fazer é criar um Scafold. E esta é apenas uma tela em branco para nosso aplicativo. E dentro do Scafold, vamos adicionar uma barra de aplicativos na parte superior.
+
+E este é um widget pré-construído que simplesmente se parece com uma barra de aplicativos e funciona como uma barra de aplicativos.
+
+E também é super fácil de criar. Agora, a outra coisa que vou colocar no meu Scafold é um contêiner. E esse contêiner é apenas uma caixa e vai conter o conteúdo do meu aplicativo.
+
+Agora, o container terá uma coluna. Portanto, esta é uma coluna. E agora podemos colocar widgets dentro da coluna que são empilhados verticalmente.
+
+Então, por exemplo, a primeira coisa que posso colocar em minha coluna - no topo - é uma linha. 
+E a segunda coisa é - eu poderia inserir - um pedaço de texto.
+
+Portanto, agora tenho uma coluna com dois itens - com dois widgets: uma linha na parte superior e algum texto na parte inferior.
+
+Agora posso ir mais fundo na minha árvore de widgets. E na minha Row, vou adicionar algum texto e um ícone. Então, quando eu quiser que os widgets sejam posicionados verticalmente - um em cima do outro - usarei uma coluna para colocá-los. Se eu quiser que os widgets fiquem lado a lado horizontalmente, usarei uma Row.
+
+E se eu quisesse adicionar um pedaço de texto, usaria um widget de texto. Se eu quisesse adicionar um ícone, usaria um widget de ícone. Se eu quiser adicionar uma imagem, usaria um widget de imagem.
+
+Então você entendeu.
+
+E no final da construção de nosso aplicativo, terminamos com uma árvore de widgets como a que você vê
+
+aqui. Agora, nossa árvore de widgets é apenas um monte de widgets aninhados uns nos outros.
+
+E se fôssemos olhar para o código de nossa árvore de widgets, seria algo semelhante, embora
+
+fosse girado, eu acho.
+
+Mas, essencialmente, teríamos todos os nossos widgets aninhados uns nos outros.
+
+Portanto, dentro desses parênteses para o scaffold, temos uma barra de aplicativos e um contêiner: uma barra de aplicativos e um contêiner.
+
+Agora, dentro dos parênteses para o contêiner Então é
+
+aqui que começa.
+
+E é aqui que tudo termina.
+
+Então temos uma coluna. Aqui está nossa coluna. Dentro de nossa
+
+coluna, temos duas coisas: uma linha e algum texto. E dentro de nossa linha, temos outras duas coisas:
+
+algum texto e algum ícone. E é assim que você representaria essa árvore ou esse design no código do DART. Portanto, criar uma interface de usuário
+
+como a que temos aqui é tão simples quanto escrever algumas linhas de código como
+
+esta.
+
+Agora, embora muitos desses widgets que vimos até agora sejam basicamente widgets de IU, certo? A sua funcionalidade é principalmente
+
+para fazer o layout ou para mostrar pedaços de texto ou ícones.
+
+Agora também existem outros widgets que possuem algumas funcionalidades.
+
+Por exemplo, se dentro da coluna - em vez de mostrar um pedaço de texto - eu quisesse mostrar uma imagem da
+
+Internet.
+
+Bem, posso usar um widget chamado imagem de rede e vou dar a ele um U. R. EU. e será capaz de
+
+carregar a imagem desse endereço de URL.
+
+Portanto, este é um widget que executa um pouco de funcionalidade.
+
+E assim, gosto de pensar nisso: quando você está construindo aplicativos
+
+Flutter, é como trabalhar com Lego Technic. Porque, embora o Lego tradicional seja basicamente sobre a construção de blocos uns
+
+sobre os outros para criar ... bem, tudo que criei foram pirâmides.
+
+Foi a coisa mais fácil de fazer, então fiz várias pirâmides.
+
+Não fui criativo o suficiente para fazer muito mais ... mas com Lego Technic você pode construir algo que não
+
+só tenha uma boa aparência, mas também tenha funcionalidade.
+
+Por exemplo, este caminhão aqui. Temos um pequeno controle remoto e você pode
+
+mover o braço do guindaste para cima e para baixo. E isso porque não contém apenas as peças Lego
+
+ou os widgets para o visual, como as rodas ou o pára-choque dianteiro ou o guindaste, mas também as peças que lhe dão
+
+funcionalidade, como um motor ou uma bateria.
+
+E é conectando todas essas peças, você acaba com algo que não
+
+só parece bonito, mas também é interativo.
+
+E isso é essencialmente o que são nossos aplicativos Flutter e como eles serão construídos por meio do uso
+
+de todos esses diferentes tipos de widgets.
+
+Então, quando estiver pronto, vamos começar e configurar e baixar nossas ferramentas para que possamos começar a
+
+desenvolver nossos próprios aplicativos Flutter! Por tudo isso e muito mais, vejo você na próxima lição.
