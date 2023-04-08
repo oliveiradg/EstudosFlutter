@@ -205,6 +205,7 @@ Portanto, há muitas coisas realmente interessantes que você pode fazer com o F
 ---
 <div align="center">
 <h2>Aula 03: A anatomia de um aplicativo Flutter</h2>
+
 </div>
 
 ### A anatomia de um aplicativo Flutter 
