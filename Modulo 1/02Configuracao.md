@@ -53,70 +53,24 @@ Agora, tradicionalmente, a Apple sempre foi muito sandbox.  Portanto, para desen
 
 E esta é a parte que é muito difícil de contornar. A razão é que a Apple tem algo chamado Code Signing e isso é feito por razões de segurança, de forma que quando as pessoas baixam ou carregam um aplicativo para o iPhone, não há algo malicioso nelas. E cada aplicativo implantado em um dispositivo requer um certificado emitido pela Apple e, para emitir esse certificado, você precisará de algum tipo de Mac.
 
-E quanto ao simulador, porque semelhante a um emulador de Android, também é apenas um programa de
-
-computador que roda no seu laptop ou desktop e simula um dispositivo iPhone real.
+E quanto ao simulador, porque semelhante a um emulador de Android, também é apenas um programa de computador que roda no seu laptop ou desktop e simula um dispositivo iPhone real.
 
 Agora, neste caso, você não o está carregando em um dispositivo físico, portanto, não precisará de um certificado para ele.
 
-Mas o simulador iOS é um programa que só roda em um Mac.
+Mas o simulador iOS é um programa que só roda em um Mac. Então, basicamente, você descobrirá que para trabalhar com o aplicativo iOS para poder testá-lo, ser capaz de construí-lo e colocá-lo na App Store do iOS, você tornará sua vida infinitamente mais fácil simplesmente adquirindo um Mac de segunda mão, se você não tiver um, ou você pode apenas ter que pegá-lo emprestado de um amigo por alguns dias enquanto faz seus testes e enquanto carrega seu aplicativo na App Store. Porque na maior parte do tempo, faremos nosso desenvolvimento usando Flutter e isso é independente de plataforma, então podemos fazer isso no Windows ou no Mac e não importa. Mas é o teste na parte do iOS que é a parte complicada.
 
-Então, basicamente, você descobrirá que para trabalhar com o aplicativo iOS para poder testá-lo, ser
+Agora o Flutter criou algumas ferramentas para tornar isso um pouco mais fácil. Por exemplo, aqui, você pode ver que estou executando um aplicativo no emulador Android à direita aqui e dentro do Flutter Inspector, há uma plataforma que alterna a renderização para alternar do Android para o iOS e você pode ver que esta barra superior mudanças na aparência para mostrar aproximadamente como seria se estivesse sendo executado no iOS.
 
-capaz de construí-lo e colocá-lo na App Store do iOS, você tornará sua vida infinitamente mais fácil simplesmente
+E isso é ótimo enquanto você está testando e você não quer ter um simulador e um emulador ou um iPhone e um telefone Android executando o aplicativo ao mesmo tempo.
 
-adquirindo um Mac de segunda mão, se você não tiver um, ou você pode apenas
+Portanto, este é um truque muito legal que você certamente achará útil se estiver trabalhando no Windows com um emulador de Android. Agora também há ferramentas como Codemagic, que permitem que você use integração contínua, construa, teste e entregue seus aplicativos Flutter direto para a App Store.
 
-ter que pegá-lo emprestado de um amigo por alguns dias enquanto faz seus testes
+Mas, novamente, eu não recomendaria construir um aplicativo iOS sem nunca tê-lo testado em um dispositivo iOS real. Mesmo se você precisar pedir um emprestado ou um de segunda mão, vale a pena fazer isso apenas para garantir que você obtenha a melhor experiência do usuário e que tenha testado o aplicativo totalmente antes de colocá-lo na app store.
 
-e enquanto carrega seu aplicativo na App Store. Porque na maior parte do tempo, faremos nosso desenvolvimento usando Flutter e isso é independente
+Então, como um resumo para desenvolver aplicativos Android com Flutter, você pode usar um Mac ou um PC. Você precisará baixar o Android Studio e um emulador de Android ou um dispositivo físico. Para construir aplicativos iOS com Flutter, recomendo que você tenha um Mac com o qual possa trabalhar.
 
-de plataforma, então podemos fazer isso no Windows ou no Mac e não importa. Mas é o teste na parte do iOS que é
+E, novamente, usaremos o Android Studio e você precisará de um simulador iOS ou um dispositivo físico para poder testar seus aplicativos iOS.
 
-a parte complicada.
+Agora, nas próximas lições, mostraremos orientações passo a passo sobre como instalar o Flutter, instalar o Android Studio e configurar tudo para garantir que você esteja pronto para iniciar o desenvolvimento.
 
-Agora o Flutter criou algumas ferramentas para tornar isso um pouco mais fácil.
-
-Por exemplo, aqui, você pode ver que estou executando um aplicativo no emulador Android à direita
-
-aqui e dentro do Flutter Inspector, há uma plataforma que alterna a renderização para alternar do Android para o
-
-iOS e você pode ver que esta barra superior mudanças na aparência para mostrar aproximadamente como seria
-
-se estivesse sendo executado no iOS.
-
-E isso é ótimo enquanto você está testando e você não quer ter um simulador e um emulador
-
-ou um iPhone e um telefone Android executando o aplicativo ao mesmo tempo.
-
-Portanto, este é um truque muito legal que você certamente achará útil se estiver
-
-trabalhando no Windows com um emulador de Android. Agora também há ferramentas como Codemagic, que permitem que você use integração contínua,
-
-construa, teste e entregue seus aplicativos Flutter direto para a App Store.
-
-Mas, novamente, eu não recomendaria construir um aplicativo iOS sem nunca tê-lo testado em um dispositivo iOS real.
-
-Mesmo se você precisar pedir um emprestado ou um de segunda mão, vale a pena fazer isso apenas para
-
-garantir que você obtenha a melhor experiência do usuário e que tenha testado o aplicativo totalmente antes de colocá-lo na app store.
-
-Então, como um resumo para desenvolver aplicativos Android com Flutter, você pode usar um Mac ou um PC. Você precisará baixar o Android Studio e
-
-um emulador de Android ou um dispositivo físico. Para construir aplicativos iOS com Flutter, recomendo
-
-que você
-
-tenha um Mac com o qual possa trabalhar.
-
-E, novamente, usaremos o Android Studio e você precisará de um simulador iOS ou um dispositivo físico
-
-para poder testar seus aplicativos iOS.
-
-Agora, nas próximas lições, mostraremos orientações passo a passo sobre como instalar o Flutter, instalar
-
-o Android Studio e configurar tudo para garantir que você esteja pronto para iniciar o desenvolvimento.
-
-Então, quando estiver pronto, vá para a próxima lição e escolha sua faixa com base no sistema que você está
-
-executando, Mac ou PC.
+Então, quando estiver pronto, vá para a próxima lição e escolha sua faixa com base no sistema que você está executando, Mac ou PC.
