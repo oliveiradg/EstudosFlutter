@@ -20,6 +20,7 @@ Officially created in collaboration with the Google Flutter team.</p>
 ### Conteúdo
      
 <a href="#aula01">Aula 01: Pré-requisitos para desenvolvimento Flutter</a><br>
+<a href="#aula01">Aula 01: Windows Setup - Instalando o Flutter SDK</a><br>
 
 
 ---
@@ -74,3 +75,14 @@ E, novamente, usaremos o Android Studio e você precisará de um simulador iOS o
 Agora, nas próximas lições, mostraremos orientações passo a passo sobre como instalar o Flutter, instalar o Android Studio e configurar tudo para garantir que você esteja pronto para iniciar o desenvolvimento.
 
 Então, quando estiver pronto, vá para a próxima lição e escolha sua faixa com base no sistema que você está executando, Mac ou PC.
+
+
+---
+<div align="center">
+<h2>Aula 02: Windows Setup - Instalando o Flutter SDK </h2>
+</div>
+
+
+---
+<div align="center">
+<a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></a>
