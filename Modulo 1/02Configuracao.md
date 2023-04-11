@@ -20,7 +20,8 @@ Officially created in collaboration with the Google Flutter team.</p>
 ### Conteúdo
      
 <a href="#aula01">Aula 01: Pré-requisitos para desenvolvimento Flutter</a><br>
-<a href="#aula01">Aula 01: Windows Setup - Instalando o Flutter SDK</a><br>
+<a href="#aula02">Aula 02: Windows Setup - Instalando o Flutter SDK</a><br>
+<a href="#aula03">Aula 03: Windows Setup - Instalando o Android Stúdio</a><br>
 
 
 ---
@@ -79,8 +80,41 @@ Então, quando estiver pronto, vá para a próxima lição e escolha sua faixa c
 
 ---
 <div align="center">
-<h2>Aula 02: Windows Setup - Instalando o Flutter SDK </h2>
+<h2>Aula 03: Windows Setup - Instalando o Android Studio </h2>
 </div>
+
+Nesta lição, mostraremos como instalar e configurar o Android Studio para Flutter e Dart.
+
+Portanto, se você já instalou o Android Studio, certifique-se de atualizar para a versão mais recente e acompanhar, pois mostraremos como adicionar os pacotes Flutter e Dart ao Android Studio.
+
+Agora, se você não tem o Android Studio instalado, clique no link das instruções de 
+
+instalação do Flutter na Documentação e clique em Baixar Android Studio. Depois de fazer o download, basta instalar o Android Studio em sua máquina Windows.
+
+[Download Android Stúdio](https://developer.android.com/studio)
+
+Agora, depois de instalar o Android Studio, certifique-se de passar pelo assistente de configuração do Android Studio.
+
+Isso instala o SDK do Android mais recente, as ferramentas da plataforma do Android SDK e as ferramentas de construção do Android SDK que serão exigidas pelo Flutter ao construir seu aplicativo Android.
+
+Agora é meio estranho que você baixe um software e depois tenha que baixar mais algumas coisas. Mas é assim que o Android Studio funciona e você começará a se acostumar com isso.
+
+Mas assim que terminar, você poderá abrir o Android Studio e verá a tela de boas-vindas como esta. E você vai configurar e ir para as configurações, e vamos para a guia de plug-ins.
+
+Agora, para instalar os plug-ins Flutter e Dart, você irá navegar pelos repositórios e procurar por Flutter. E deve ser aquele que tem apenas o nome Flutter e você vai seguir em frente e clicar em instalar. E certifique-se de aceitar qualquer pop-up que surgir. Agora, quando você instalar o plugin Flutter.
+
+Ele também instalará o plug-in Dart junto. Então você pode ir em frente e clicar em sim para essa janela pop-up também. Agora, uma vez feito isso, você precisa reiniciar o Android Studio para que os efeitos ocorram. Portanto, certifique-se de clicar em reiniciar quando for solicitado a reiniciar o Android Studio e ativar as alterações em nossos plug-ins. E agora, uma vez feito isso, você verá um novo item de menu na tela de boas-vindas onde diz para iniciar um novo projeto Flutter.
+
+Portanto, se você pode ver isso na tela de boas-vindas, considere esta lição um sucesso. Agora você está pronto para usar o Flutter e o Dart para desenvolver aplicativos do Flutter para Android.
+
+<!-- Imagem de telas -->
+
+<img src="../images/android_studio.png">
+
+Então, na próxima lição, vou mostrar como configurar o emulador Android e construir um novo projeto Flutter para executá-lo e testá-lo.
+
+
+
 
 
 ---
