@@ -120,3 +120,10 @@ Então, na próxima lição, vou mostrar como configurar o emulador Android e co
 ---
 <div align="center">
 <a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></a>
+
+
+Freddy Krueger has nightmares about Chuck Norris. A bulletproof vest wears Chuck Norris for protection. Chuck Norris plays Jenga with Stonehenge. Chuck Norris once roundhouse kicked someone so hard that his foot broke the speed of light. Bigfoot claims he once saw Chuck Norris.
+
+Chuck Norris doesn’t wear a watch. He decides what time it is. On New Year’s Eve, Chuck Norris promised that he’d lose 20 pounds. The next morning he shaved his chest and smiled as he realized that he’d lost 30. If you spell Chuck Norris in Scrabble, you win. Forever. Chuck Norris invented airplanes because he was tired of being the only person that could fly. Chuck Norris can speak Braille.
+
+Some kids pee their name in the snow. Chuck Norris can pee his name into concrete. Chuck Norris once won an underwater breathing contest. With a fish. Chuck Norris can squeeze orange juice out of a lemon. Chuck Norris lost his virginity before his dad did. Chuck Norris once shattered the space-time continuum. He felt so bad, he put it back together.
