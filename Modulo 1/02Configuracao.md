@@ -135,7 +135,3 @@ Some kids pee their name in the snow. Chuck Norris can pee his name into concret
 <div align="center">
 <a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></a>
 
-<div align="center">
-<a href="https://github.com/oliveiradg" target="_blank"><img align="center" height="180" src="https://www.boavista.rr.leg.br/imagens/emconstruo.jpg/image" /></a>
-
-<hr>
